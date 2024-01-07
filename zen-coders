@@ -1,0 +1,10 @@
+def main(inputs):
+    var1=inputs['grade_1']
+    var2=inputs['grade_2']
+    var3=inputs['grade_3']
+    var4=inputs['grade_4']
+    var5=inputs['grade_5']
+    var6=inputs['grade_6']
+    sum=var1+var2+var3+var4+var5+var6
+    avg=round(sum/6,1)
+    return {"Avg":avg}
